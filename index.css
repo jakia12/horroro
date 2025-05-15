@@ -1,0 +1,253 @@
+body {
+  font: 1.2em;
+  font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,
+    "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "MS Pã‚´ã‚·ãƒƒã‚¯", "MS PGothic", farial, helvetica,
+    clean, sans-serif;
+  max-width: 43em;
+  margin: auto;
+  background-image: linear-gradient(#dafe92, #f4ffee, #edffd0, white, #dafe92);
+  background-attachment: fixed;
+}
+
+#NoWallet {
+  text-align: center;
+  font-size: 12px;
+}
+
+.TextNoWallet {
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(75, 75, 75);
+}
+
+.TextInstallWallet {
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 20em;
+  border: 1px solid #777;
+}
+img:hover {
+  border: 1px solid purple;
+}
+.m_box {
+  border: 1px solid #b2ff07;
+  margin: 1em;
+  background-color: white;
+}
+.m_box_red {
+  border: 1px solid #800000;
+  margin: 1em;
+  background-color: #ffffee;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+.m_box_bar {
+  background: #b2ff07;
+  color: white;
+}
+.m_box_bar_red {
+  background: #800000;
+  color: white;
+}
+
+h2.m_box {
+  background-color: #b2ff07;
+}
+h2.box {
+  background-color: #fca;
+}
+p {
+  margin: 0.5em;
+  margin-left: 1em;
+  color: black;
+}
+
+.box {
+  border: 1px solid #b2ff07;
+  color: #b2ff07;
+  margin: 1em;
+  background-color: white;
+}
+.box_bar {
+  background: #9eff00;
+  color: #b2ff07;
+}
+
+h2 {
+  margin-top: 0.001em;
+  margin-bottom: 0.001em;
+  margin-left: 0.25em;
+  font-size: 1.1em;
+}
+h3 {
+  margin-left: 0.3em;
+  font-size: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 0.1em;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+li {
+  margin-left: 0.3em;
+}
+ul {
+  list-style-type: circle;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+  width: 32%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery_container {
+  display: grid;
+  justify-items: auto;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  padding: 0.5em;
+  width: auto;
+}
+
+div.gallery_item {
+  object-fit: cover;
+}
+
+.gallery_item img {
+  border: 1px solid #777;
+  height: auto;
+  width: auto;
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+}
+
+div.desc {
+  padding: 1em;
+  text-align: center;
+  font-size: smaller;
+  width: 80%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  div.desc {
+    font-size: x-small;
+  }
+
+  ul {
+    margin-right: 1em;
+  }
+}
+
+.mint-box {
+  padding: 1em;
+  background: white;
+  color: black;
+  text-align: center;
+}
+#mint-reserve {
+  text-align: center;
+}
+
+.connect-button {
+  /* display: block; */
+  /* margin: 1em auto; */
+  /* width: 250px; */
+  padding: 0.5em;
+  font-size: 20px;
+  background: #9eff00;
+  color: #b2ff07;
+  cursor: pointer;
+  white-space: pre-line;
+}
+.connect-button:hover {
+  background: #9eff00;
+  color: #9eff00;
+}
+
+.mint-button {
+  margin: 0.33em 0;
+}
+.mint-button a,
+.mint-reserve-button a {
+  cursor: pointer;
+  color: black;
+}
+.mint-button a:hover,
+.mint-reserve-button a:hover {
+  color: red;
+}
+
+.mint-reserve-button {
+  text-align: center;
+}
+.mint-reserve-button a {
+  color: #b2ff07;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.amount-minted {
+  text-align: center;
+  font-style: italic;
+  color: #333;
+  padding: 0 0 1em;
+}
+.current-supply {
+  font-weight: bold;
+}
+
+.whitelisted-notices {
+  margin-top: 1em;
+}
+.whitelisted-notice {
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+}
+.whitelisted-notice:last-child {
+  border-bottom: 1px solid #333;
+}
+.whitelisted-notice-reserve {
+  margin: 0.5em 0;
+}
+
+.wallet-show {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.mint-your-milady {
+  margin-top: 1em;
+}
